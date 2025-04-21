@@ -66,3 +66,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+def predict(update: Update, context: CallbackContext):
+    update.message.reply_text('Predicting... stay tuned!')
+
+dispatcher.add_handler(CommandHandler("predict", predict))
