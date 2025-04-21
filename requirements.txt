@@ -1,1 +1,5 @@
 python-telegram-bot==13.7
+- main.py
+- requirements.txt
+- .env (contains the BOT_TOKEN environment variable)
+BOT_TOKEN=7520521128:AAFknHDIUW7D-XdwCzy0SiRyZRjoh1XNk3Y
